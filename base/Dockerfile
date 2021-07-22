@@ -13,6 +13,7 @@ RUN apt-get -q update \
  && apt-get -q install -y --no-install-recommends apt-utils \
  && apt-get -q install -y --no-install-recommends --allow-downgrades \
  ca-certificates \
+ libavcodec-extra57 \
  libasound2 \
  libc6-dev \
  libcap2 \
